@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      h1 {
+        color: blueviolet;
+      }
+      .important {
+        color: brown !important;
+      }
+      #myHead {
+        color: coral;
+      }
+      .first h1 {
+        color: aqua;
+      }
+      .first > h1 {
+        color: darkgreen;
+      }
+      .rgb h1 {
+        color: rgb(123, 123, 123);
+      }
+      .hex h1 {
+        color: #d458f5;
+      }
+      .rgba h1 {
+        color: rgba(123, 123, 123, 0.5);
+        /*color: rosybrown; This is comment out*/
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: blue;">CSS</h1>
+    <h1 class="important" style="color: blue;">CSS</h1>
+    <h1>CSS</h1>
+    <h1 id="myHead">CSS</h1>
+    <div class="first">
+      <div>
+        <h1>CSS</h1>
+      </div>
+    </div>
+    <div class="first">
+      <h1>CSS</h1>
+    </div>
+    <div class="rgb">
+      <h1>CSS</h1>
+    </div>
+    <div class="hex">
+      <h1>CSS</h1>
+    </div>
+    <div class="rgba">
+      <h1>CSS</h1>
+    </div>
+
+    <div class="background-color width200"></div>
+    <div class="background-image width200"></div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+h1 {
+  color: red;
+}
+.background-color {
+  background-color: #df3434;
+  width: 200px;
+  height: 200px;
+}
+.background-image {
+  background-image: url("/image/firefox.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
