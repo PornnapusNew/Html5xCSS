@@ -68,4 +68,4 @@
   //   type: "image"
   //   // other options
   // });
-})();
+})(jQuery);
