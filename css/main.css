@@ -8,3 +8,10 @@
 body {
   font-family: "Open Sans", sans-serif !important;
 }
+.my-nav {
+  padding: 20px 0;
+  background-color: grey;
+}
+.cover {
+  background-image: url("image/room.jpg");
+}
